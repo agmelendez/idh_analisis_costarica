@@ -1,0 +1,6 @@
+﻿comparacion,ARI,NMI,p_permutacion
+Cuadrante rotado vs K-means k=4,0.30466721754236364,0.4142224924350646,0.0001999600079984003
+Cuadrante original (sin rotar) vs K-means k=4,0.3178951917075227,0.48069263277128654,
+Cuadrante rotado vs jerárquico Gower k=4,0.2282154995136705,0.345348402891758,
+K-means k=4 vs jerárquico Gower k=4,0.45262869260428407,0.574385936744833,
+Cuadrante rotado vs cuadrante original,0.3279422632565146,0.5070281333338509,

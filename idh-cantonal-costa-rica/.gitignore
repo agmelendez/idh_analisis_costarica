@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+articulo/_trabajo/
+articulo/resultados_reproducidas/
+informe/datos/
+informe/tablas/
+informe/figuras/
+.ipynb_checkpoints/

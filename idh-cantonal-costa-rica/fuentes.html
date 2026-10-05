@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fuentes y método · IDH cantonal de Costa Rica</title>
+<meta name="description" content="Fuentes de datos, cobertura temporal y cantonal, y reglas de tratamiento de vacíos.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23004782'/%3E%3Crect x='6' y='17' width='5' height='9' fill='%23fff'/%3E%3Crect x='14' y='11' width='5' height='15' fill='%23FF944E'/%3E%3Crect x='22' y='6' width='5' height='20' fill='%23fff'/%3E%3C/svg%3E">
+</head><body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="masthead"><div class="wrap">
+<div class="brand"><span class="inst">Centro de Investigación Observatorio del Desarrollo · Universidad de Costa Rica</span>
+<a class="title" href="index.html">Desarrollo humano, competitividad y seguridad en los cantones de Costa Rica</a></div>
+<div class="coord">Coordinación: MSI. Agustín Gómez Meléndez<br>Repositorio de reproducibilidad · v1.0 · octubre 2026</div></div></header>
+<nav class="tabs" aria-label="Secciones del sitio"><div class="wrap"><ul><li><a href="index.html">Inicio</a></li><li><a href="articulo.html">Artículo</a></li><li><a href="informe.html">Informe técnico</a></li><li><a href="explorador.html">Explorador</a></li><li><a href="datos.html">Datos</a></li><li><a href="codigo.html">Código</a></li><li><a href="fuentes.html" aria-current="page">Fuentes y método</a></li><li><a href="citar.html">Citar y licencias</a></li></ul></div></nav>
+<main id="main"><div class="wrap">
+
+<p class="kicker">Fuentes y método</p><h1>De dónde vienen los datos y cómo se tratan los vacíos</h1>
+<p class="lead">Resumen del <a href="data/MANUAL_DE_USO.md">manual de uso de la base cantonal</a> (17 de agosto de 2026), que es el documento de referencia cada vez que se combinan o comparan variables entre fuentes.</p>
+<div class="tablewrap"><table><caption>Fuentes, cobertura temporal y cantonal</caption><thead><tr><th>Fuente</th><th>Variables</th><th>Años</th><th>Cobertura cantonal</th></tr></thead><tbody>
+<tr><td>PNUD Costa Rica · Atlas de Desarrollo Humano Cantonal (2026)</td><td>IDH, IDH-D, IDG y componentes; IPM; ISC; IVDAC</td><td>IDH familia: 2010–2024 · IPM: 2024 (corte único) · ISC: 2020–2025 · IVDAC: 2020–2024</td><td>84 cantones; Río Cuarto desde 2019, Monteverde y Puerto Jiménez desde 2022 en las series IDH</td></tr>
+<tr><td>Escuela de Economía, UCR · Índice de Competitividad Cantonal</td><td>ICC, siete pilares, población, PEA e indicadores base</td><td>2023–2024</td><td>82 cantones en 2024; 81 en 2023; <strong>sin Monteverde ni Puerto Jiménez</strong></td></tr>
+<tr><td>Banco Central de Costa Rica · PIB cantonal</td><td>Valor agregado, impuestos, PIB, exportaciones, importaciones (millones de colones corrientes)</td><td>2019–2022</td><td>82 cantones 2019–2021; 84 en 2022</td></tr>
+<tr><td>Banco Central de Costa Rica · Unidades Jurídicas (REVEC)</td><td>Cantidad de UJ, trabajadores, masa salarial, ingresos, exportaciones e importaciones, por tamaño y actividad</td><td>2005–2024</td><td>84 cantones más el código 999 «no distribuido» (excluido de las agregaciones cantonales)</td></tr>
+<tr><td>Registro Nacional · IGN · División Territorial Administrativa 2026</td><td>Marco oficial de 84 cantones y 490 distritos</td><td>2026</td><td>84 cantones</td></tr></tbody></table></div>
+<h2>Cantones de creación reciente</h2>
+<div class="prose"><p>Río Cuarto (216, segregado de Alajuela) y Monteverde (612) y Puerto Jiménez (613), segregados de Puntarenas, no tienen historia completa: antes de 2019 (Río Cuarto) y de 2022 (los otros dos) los años son <strong>NA estructural</strong>, no un error de captura. Por eso las bases analíticas de ICC tienen 82 cantones.</p></div>
+<h2>Jerarquía de tratamiento de vacíos</h2>
+<ol class="prose">
+<li><strong>Cantón inexistente en ese año</strong> → NA estructural; se excluye de los denominadores nacionales de ese año.</li>
+<li><strong>Año fuera del rango de la fuente</strong> → el dato no existe; no se interpola ni extrapola salvo petición expresa con metodología declarada.</li>
+<li><strong>Celda suprimida por confidencialidad</strong> (<code>"x"</code> en las hojas C2/C3 de Unidades Jurídicas) → NA con motivo «confidencial»; la hoja C4 cuantifica la cobertura publicada.</li>
+<li><strong>Código <code>"nd"</code></strong> → NA con motivo «no clasificable».</li>
+<li><strong>Fila ausente por ausencia real de unidades</strong> → 0, no NA.</li>
+<li><strong>Cantón faltante en el ICC</strong> → NA; nunca se calculan promedios «de los 84 cantones» sin aclarar la cobertura real.</li></ol>
+<h2>Regla del último año disponible</h2>
+<div class="prose"><p>Cada variable conserva su propio último año disponible: se homologa el cantón (vía <code>cod_canton</code>), no el año. Toda salida que use esta regla debe llevar una nota técnica con el formato:</p></div>
+<div class="note"><em>Nota técnica: [variable] corresponde al año [AAAA], que es el último dato disponible en la fuente ([institución]) al momento de este análisis (información consultada en 2026). No existen datos posteriores a [AAAA] para esta variable.</em></div>
+<p>La fuente consultada es de 2026 en las cuatro instituciones, pero el año al que corresponde cada dato varía entre 2005 y 2025. No deben confundirse ambos conceptos.</p>
+</div></main>
+<footer><div class="wrap cc"><div>
+<strong>CIOdD · Universidad de Costa Rica.</strong> Contenido (textos, datos armonizados, tablas y figuras) bajo
+<a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>; código bajo licencia MIT.
+Los datos de origen conservan los términos de sus instituciones (PNUD, BCCR, Escuela de Economía-UCR); ver <a href="citar.html">Citar y licencias</a>.</div>
+<div>Repositorio: <a href="https://github.com/USUARIO/idh-cantonal-costa-rica">github.com/USUARIO/idh-cantonal-costa-rica</a><br>Contacto: agustin.gomez@ucr.ac.cr</div></div></footer>
+<script src="assets/js/site.js"></script>
+</body></html>

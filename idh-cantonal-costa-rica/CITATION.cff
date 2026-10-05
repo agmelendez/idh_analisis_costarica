@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Si usa estos datos, código o resultados, cítelos como se indica a continuación y cite también las fuentes primarias (PNUD, BCCR, Escuela de Economía-UCR)."
+title: "Desarrollo humano, competitividad y seguridad en los cantones de Costa Rica: datos, código y resultados de referencia"
+version: "1.0.0"
+date-released: "2026-10-05"
+type: dataset
+authors:
+  - family-names: "Gómez Meléndez"
+    given-names: "Agustín"
+    email: "agustin.gomez@ucr.ac.cr"
+    affiliation: "Centro de Investigación Observatorio del Desarrollo (CIOdD), Universidad de Costa Rica"
+repository-code: "https://github.com/USUARIO/idh-cantonal-costa-rica"
+url: "https://USUARIO.github.io/idh-cantonal-costa-rica/"
+license: CC-BY-4.0
+keywords:
+  - desarrollo humano
+  - Costa Rica
+  - cantones
+  - competitividad cantonal
+  - reproducibilidad
+  - componentes principales
+  - rupturas naturales de Jenks
+abstract: "Datos armonizados (CSV), código en Python y resultados de referencia de dos estudios del CIOdD-UCR sobre heterogeneidad territorial del desarrollo humano, competitividad y seguridad en los 84 cantones de Costa Rica."

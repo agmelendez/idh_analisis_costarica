@@ -1,0 +1,83 @@
+﻿cod_canton,canton,cluster_kmeans4,cluster_jerarquico_gower4
+101,San José,2,4
+102,Escazú,2,3
+103,Desamparados,1,2
+104,Puriscal,1,2
+105,Tarrazú,1,2
+106,Aserrí,1,2
+107,Mora,3,2
+108,Goicoechea,3,2
+109,Santa Ana,2,3
+110,Alajuelita,1,2
+111,Vázquez de Coronado,3,2
+112,Acosta,1,2
+113,Tibás,3,2
+114,Moravia,3,3
+115,Montes de Oca,2,3
+116,Turrubares,1,2
+117,Dota,1,2
+118,Curridabat,3,3
+119,Pérez Zeledón,1,2
+120,León Cortés Castro,1,2
+201,Alajuela,3,3
+202,San Ramón,1,2
+203,Grecia,3,2
+204,San Mateo,1,2
+205,Atenas,3,2
+206,Naranjo,3,2
+207,Palmares,3,2
+208,Poás,3,2
+209,Orotina,1,2
+210,San Carlos,1,2
+211,Zarcero,3,2
+212,Sarchí,1,2
+213,Upala,4,2
+214,Los Chiles,4,1
+215,Guatuso,4,2
+216,Río Cuarto,1,2
+301,Cartago,3,3
+302,Paraíso,1,2
+303,La Unión,3,2
+304,Jiménez,1,2
+305,Turrialba,1,2
+306,Alvarado,1,2
+307,Oreamuno,1,2
+308,El Guarco,3,2
+401,Heredia,3,3
+402,Barva,3,2
+403,Santo Domingo,3,3
+404,Santa Bárbara,3,2
+405,San Rafael,3,2
+406,San Isidro,3,3
+407,Belén,2,3
+408,Flores,3,3
+409,San Pablo,3,3
+410,Sarapiquí,1,2
+501,Liberia,1,2
+502,Nicoya,4,1
+503,Santa Cruz,4,1
+504,Bagaces,1,2
+505,Carrillo,1,2
+506,Cañas,1,2
+507,Abangares,1,2
+508,Tilarán,1,2
+509,Nandayure,1,2
+510,La Cruz,4,1
+511,Hojancha,1,2
+601,Puntarenas,4,1
+602,Esparza,1,2
+603,Buenos Aires,4,2
+604,Montes de Oro,1,2
+605,Osa,4,1
+606,Quepos,4,1
+607,Golfito,4,1
+608,Coto Brus,4,1
+609,Parrita,4,1
+610,Corredores,4,1
+611,Garabito,4,1
+701,Limón,4,1
+702,Pococí,1,2
+703,Siquirres,4,1
+704,Talamanca,4,1
+705,Matina,4,1
+706,Guácimo,1,2

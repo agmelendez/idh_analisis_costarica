@@ -1,0 +1,49 @@
+{
+ "sil_k4_v2": 0.24388347095142068,
+ "inercia_k4_v2": 224.03572517262774,
+ "sil_k4_best": 0.2525993260064307,
+ "inercia_k4_best": 223.3007916546622,
+ "sil_k4_rango_semillas": [
+  0.24184042842065143,
+  0.3030387341316401
+ ],
+ "ari_v2_vs_best": 0.8177847295777896,
+ "k_best_by_sil": {
+  "Escala robusta (mediana/MAD, recorte \u00b13)": 2,
+  "Rangos\u2192normal + z": 2,
+  "Winsorizado 5/95 + z": 2,
+  "ln(PIB) + z-score": 2,
+  "z-score (informe v2)": 3
+ },
+ "sil_max": {
+  "Escala robusta (mediana/MAD, recorte \u00b13)": 0.33628218108284524,
+  "Rangos\u2192normal + z": 0.32267358587206774,
+  "Winsorizado 5/95 + z": 0.33385304658147746,
+  "ln(PIB) + z-score": 0.31148562690922993,
+  "z-score (informe v2)": 0.3180283897518925
+ },
+ "ari_q_km": 0.30466721754236364,
+ "nmi_q_km": 0.4142224924350646,
+ "ari_qo_km": 0.3178951917075227,
+ "nmi_qo_km": 0.48069263277128654,
+ "ari_q_h": 0.2282154995136705,
+ "ari_km_h": 0.45262869260428407,
+ "p_ari_perm": 0.0001999600079984003,
+ "pureza_km_vs_q": 0.6219512195121951,
+ "ext5_cluster": {
+  "San Jos\u00e9": 2,
+  "Escaz\u00fa": 2,
+  "Santa Ana": 2,
+  "Montes de Oca": 2,
+  "Bel\u00e9n": 2
+ },
+ "ext5_qrot": {
+  "San Jos\u00e9": "Q4",
+  "Escaz\u00fa": "Q1",
+  "Santa Ana": "Q1",
+  "Montes de Oca": "Q1",
+  "Bel\u00e9n": "Q4"
+ },
+ "jacc_k4_medio": 0.6137495155131687,
+ "jacc_k4_min": 0.5928529054129268
+}
