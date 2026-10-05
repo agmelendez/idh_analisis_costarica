@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Explorador · IDH cantonal de Costa Rica</title>
+<meta name="description" content="Mapa, tabla y diagrama de dispersión interactivos de los 84 cantones de Costa Rica.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23004782'/%3E%3Crect x='6' y='17' width='5' height='9' fill='%23fff'/%3E%3Crect x='14' y='11' width='5' height='15' fill='%23FF944E'/%3E%3Crect x='22' y='6' width='5' height='20' fill='%23fff'/%3E%3C/svg%3E">
+</head><body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="masthead"><div class="wrap">
+<div class="brand"><span class="inst">Centro de Investigación Observatorio del Desarrollo · Universidad de Costa Rica</span>
+<a class="title" href="index.html">Desarrollo humano, competitividad y seguridad en los cantones de Costa Rica</a></div>
+<div class="coord">Coordinación: MSI. Agustín Gómez Meléndez<br>Repositorio de reproducibilidad · v1.0 · octubre 2026</div></div></header>
+<nav class="tabs" aria-label="Secciones del sitio"><div class="wrap"><ul><li><a href="index.html">Inicio</a></li><li><a href="articulo.html">Artículo</a></li><li><a href="informe.html">Informe técnico</a></li><li><a href="explorador.html" aria-current="page">Explorador</a></li><li><a href="datos.html">Datos</a></li><li><a href="codigo.html">Código</a></li><li><a href="fuentes.html">Fuentes y método</a></li><li><a href="citar.html">Citar y licencias</a></li></ul></div></nav>
+<main id="main"><div class="wrap">
+
+<p class="kicker">Explorador interactivo</p><h1>Los 84 cantones en un solo cuadro</h1>
+<p class="lead">Seleccione una variable para colorear el mapa; haga clic en un cantón (mapa, tabla o dispersión) para ver su perfil. Cada variable se muestra en su último año disponible.</p>
+<div class="controls"><label>Variable en el mapa<select id="var"></select></label><label>Buscar cantón o provincia<input type="search" id="q" placeholder="p. ej. Escazú"></label></div>
+<div class="explorer">
+<div><h2 style="margin-top:0" id="maptitle">Mapa</h2><div id="mapbox"><svg id="map" role="group" aria-label="Mapa cantonal de Costa Rica"></svg></div><div class="legend" id="legend" aria-label="Leyenda"></div>
+<p><small>Clases por quintiles para variables numéricas; colores categóricos de la paleta Okabe-Ito. Los cantones sin dato (p. ej., Monteverde y Puerto Jiménez en el ICC) aparecen en gris. Límites simplificados con fines de visualización; la Isla del Coco (cantón Puntarenas) no se dibuja.</small></p></div>
+<div><h2 style="margin-top:0">Cantón seleccionado</h2><div id="detail">Haga clic en un cantón.</div>
+<h2>Tabla <small id="count" style="font-weight:400;font-size:.8rem"></small></h2><div class="tablewrap" style="max-height:340px;overflow:auto"><table id="tbl"></table></div></div></div>
+<h2>Relación entre dos variables</h2>
+<div class="controls"><label>Eje horizontal<select id="xv"></select></label><label>Eje vertical<select id="yv"></select></label></div>
+<svg id="scatter" role="img" aria-label="Diagrama de dispersión de los cantones" style="max-width:640px"></svg>
+<p id="rho" aria-live="polite"></p>
+<div id="tip" role="tooltip"></div>
+<script src="assets/data/explorador-datos.js"></script>
+<script src="assets/js/explorador.js"></script>
+</div></main>
+<footer><div class="wrap cc"><div>
+<strong>CIOdD · Universidad de Costa Rica.</strong> Contenido (textos, datos armonizados, tablas y figuras) bajo
+<a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>; código bajo licencia MIT.
+Los datos de origen conservan los términos de sus instituciones (PNUD, BCCR, Escuela de Economía-UCR); ver <a href="citar.html">Citar y licencias</a>.</div>
+<div>Repositorio: <a href="https://github.com/USUARIO/idh-cantonal-costa-rica">github.com/USUARIO/idh-cantonal-costa-rica</a><br>Contacto: agustin.gomez@ucr.ac.cr</div></div></footer>
+<script src="assets/js/site.js"></script>
+</body></html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Código · IDH cantonal de Costa Rica</title>
+<meta name="description" content="Estructura del repositorio, entorno, scripts y verificación de reproducibilidad.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23004782'/%3E%3Crect x='6' y='17' width='5' height='9' fill='%23fff'/%3E%3Crect x='14' y='11' width='5' height='15' fill='%23FF944E'/%3E%3Crect x='22' y='6' width='5' height='20' fill='%23fff'/%3E%3C/svg%3E">
+</head><body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="masthead"><div class="wrap">
+<div class="brand"><span class="inst">Centro de Investigación Observatorio del Desarrollo · Universidad de Costa Rica</span>
+<a class="title" href="index.html">Desarrollo humano, competitividad y seguridad en los cantones de Costa Rica</a></div>
+<div class="coord">Coordinación: MSI. Agustín Gómez Meléndez<br>Repositorio de reproducibilidad · v1.0 · octubre 2026</div></div></header>
+<nav class="tabs" aria-label="Secciones del sitio"><div class="wrap"><ul><li><a href="index.html">Inicio</a></li><li><a href="articulo.html">Artículo</a></li><li><a href="informe.html">Informe técnico</a></li><li><a href="explorador.html">Explorador</a></li><li><a href="datos.html">Datos</a></li><li><a href="codigo.html" aria-current="page">Código</a></li><li><a href="fuentes.html">Fuentes y método</a></li><li><a href="citar.html">Citar y licencias</a></li></ul></div></nav>
+<main id="main"><div class="wrap">
+
+<p class="kicker">Código y reproducibilidad</p><h1>Ejecutar el análisis desde cero</h1>
+<p class="lead">Python 3.13 con versiones fijas de las librerías, semillas declaradas y resultados de referencia contra los cuales comparar.</p>
+<h2>Estructura del repositorio</h2>
+<pre><code>.
+├── index.html, articulo.html, informe.html, …   sitio (GitHub Pages)
+├── assets/                  estilos, scripts del sitio, figuras, datos del explorador
+├── documentos/              artículo e informe (PDF y DOCX)
+├── data/
+│   ├── armonizadas/         bases finales en CSV
+│   ├── entradas/            insumos de los scripts (paneles, ds1–ds3, shapefile, libros originales)
+│   ├── geo/                 límites cantonales simplificados (GeoJSON)
+│   ├── DICCIONARIO_DATOS.csv · MANUAL_DE_USO.md · MANIFEST_SHA256.txt
+│   └── build_panels.py · validar_paneles.py · nota_tecnica.py
+├── articulo/
+│   ├── scripts/             a1–a5, common.py, run_all.sh
+│   └── resultados/          salidas publicadas (CSV, figuras)
+├── informe/
+│   ├── scripts/             00–10 + utilidades; run_all.py
+│   ├── resultados_referencia/   datos/, tablas/ (54), figuras/
+│   └── construccion_docx/   scripts de maquetación del documento (opcional)
+├── requirements.txt · CITATION.cff · LICENSE · LICENSE-CODE
+└── README.md</code></pre>
+<h2>Entorno</h2>
+<pre><code>python -m venv .venv &amp;&amp; source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt</code></pre>
+<p>Versiones de referencia (las usadas para producir las cifras publicadas): Python 3.13.16, NumPy 2.5.3, pandas 3.0.5, SciPy 1.18.1, scikit-learn 1.9.1, statsmodels 0.15.0, factor_analyzer 0.5.1, libpysal 4.15.0, esda 2.10.0, spreg 1.9.1, GeoPandas 1.2.0, Shapely 2.1.2, Matplotlib 3.11.2. Con otras versiones, los resultados con simulación pueden diferir en cifras decimales.</p>
+<h2>Informe técnico v3</h2>
+<pre><code>python informe/run_all.py
+python informe/scripts/10_verificar_reproduccion.py</code></pre>
+<div class="tablewrap"><table><caption>Scripts del informe</caption><thead><tr><th>Script</th><th>Producto</th></tr></thead><tbody>
+<tr><td><code>00_datos.py</code></td><td>Reconstruye el dataset de 82 cantones desde los paneles, lo coteja con el publicado, agrega población 2023, área, densidad y región; auditoría A01–A03 y sumas SHA-256 de las entradas.</td></tr>
+<tr><td><code>01_descriptivo_correlacion.py</code></td><td>Descriptivos, extremos de Tukey, 21 correlaciones (Pearson/Spearman, IC de Fisher y bootstrap, FDR).</td></tr>
+<tr><td><code>02_pca.py</code></td><td>KMO, Bartlett, análisis paralelo, varimax, puntajes rotados, cuadrantes, transición, bootstrap, sensibilidad S1–S7, exclusión de un cantón.</td></tr>
+<tr><td><code>03_agrupamiento.py</code></td><td>K-means k = 2–8 (cinco transformaciones), estabilidad, Gower jerárquico, ARI/NMI.</td></tr>
+<tr><td><code>04_ejercicio2.py</code></td><td>Q3 frente al resto (Mann-Whitney, rank-biserial, TOST), ajuste por densidad y región, exclusión de un dominio, paneles A/B del eje de seguridad.</td></tr>
+<tr><td><code>05_ponderado_espacial.py</code></td><td>Ponderación por población, I de Moran, LISA con FDR, <em>join counts</em>.</td></tr>
+<tr><td><code>06_rezago.py</code></td><td>Índice de rezago relativo y 13 escenarios de sensibilidad.</td></tr>
+<tr><td><code>07_figuras.py</code></td><td>Las diez figuras (paleta Okabe-Ito) y su texto alternativo.</td></tr>
+<tr><td><code>09_validacion_independiente.py</code></td><td>Reimplementación con NumPy/SciPy de los cálculos centrales y comparación con las librerías.</td></tr>
+<tr><td><code>10_verificar_reproduccion.py</code></td><td>Ejecuta todo en un directorio temporal y compara cada tabla con la de referencia (tolerancia 1e-6).</td></tr></tbody></table></div>
+<h2>Artículo</h2>
+<pre><code>bash articulo/scripts/run_all.sh</code></pre>
+<p>Ver la pestaña <a href="articulo.html#art-repro">Reproducir</a> del artículo.</p>
+<h2>Verificación de esta publicación</h2>
+<div class="tablewrap"><table><caption>Resultado de la reejecución desde cero (5 de octubre de 2026, Python 3.13.16, entorno nuevo)</caption>
+<thead><tr><th scope="col">Paquete</th><th scope="col">Comparación</th><th scope="col">Resultado</th></tr></thead><tbody>
+<tr><td>Informe técnico v3</td><td>54 tablas generadas frente a <code>informe/resultados_referencia/tablas/</code> (tolerancia 1e-6)</td><td><span class="badge ok">54 de 54 idénticas</span> diferencia máxima 0,0</td></tr>
+<tr><td>Informe técnico v3</td><td>Validación independiente (<code>09_validacion_independiente.py</code>)</td><td><span class="badge ok">todas las comprobaciones pasan</span> (diferencia máxima en cargas varimax 7,7e-04, atribuible a la tolerancia de convergencia de factor_analyzer)</td></tr>
+<tr><td>Artículo</td><td>9 tablas CSV generadas frente a <code>articulo/resultados/</code> (tolerancia 1e-9)</td><td><span class="badge ok">9 de 9 idénticas</span> diferencia máxima 7,1e-15</td></tr></tbody></table></div>
+<p>Los resultados de cada verificación quedan registrados en <a href="informe/resultados_referencia/verificacion_reproduccion.json"><code>informe/resultados_referencia/verificacion_reproduccion.json</code></a> y <a href="articulo/verificacion_reproduccion.json"><code>articulo/verificacion_reproduccion.json</code></a>. Tiempos aproximados: informe, 5 minutos; artículo, 25–30 minutos.</p>
+<div class="note warn"><strong>Alcance de esta verificación.</strong> Demuestra que el código reproduce las cifras publicadas con las versiones fijadas; no demuestra que la metodología sea la adecuada. Las versiones de <code>jenkspy</code> (0.4.1) y <code>scikit-posthocs</code> (0.17.0) son las de esta reejecución; la sesión original no las registró.</div>
+
+<h2>Buenas prácticas incorporadas</h2>
+<ul><li>Semillas fijas y declaradas; versiones exactas en <code>requirements.txt</code>.</li><li>Dos controles distintos: reproducción de cifras y validación metodológica independiente.</li><li>Sumas SHA-256 de todos los archivos de datos publicados.</li><li>Rutas relativas: los scripts no dependen de carpetas de una sesión particular; la carpeta de insumos puede cambiarse con la variable de entorno <code>ENTRADAS</code>.</li></ul>
+</div></main>
+<footer><div class="wrap cc"><div>
+<strong>CIOdD · Universidad de Costa Rica.</strong> Contenido (textos, datos armonizados, tablas y figuras) bajo
+<a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>; código bajo licencia MIT.
+Los datos de origen conservan los términos de sus instituciones (PNUD, BCCR, Escuela de Economía-UCR); ver <a href="citar.html">Citar y licencias</a>.</div>
+<div>Repositorio: <a href="https://github.com/USUARIO/idh-cantonal-costa-rica">github.com/USUARIO/idh-cantonal-costa-rica</a><br>Contacto: agustin.gomez@ucr.ac.cr</div></div></footer>
+<script src="assets/js/site.js"></script>
+</body></html>

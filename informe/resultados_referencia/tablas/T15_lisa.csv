@@ -1,0 +1,165 @@
+﻿eje,cod_canton,canton,Ii,p_sim,q_fdr,cuadrante_lisa,cluster_fdr,cluster_sin_ajuste
+Eje económico,101,San José,3.6023260330926465,0.0001,0.0041,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,102,Escazú,3.8737242175607642,0.0007,0.01435,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,103,Desamparados,-0.05341810793699152,0.1381,0.27372380952380954,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,104,Puriscal,0.32151795978318104,0.1205,0.2670540540540541,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,105,Tarrazú,0.13480622255536973,0.2785,0.439173076923077,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,106,Aserrí,0.35374962870572524,0.0705,0.20132413793103449,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,107,Mora,0.06290379638507207,0.1169,0.26627222222222224,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,108,Goicoechea,0.21442424237304375,0.008,0.0656,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,109,Santa Ana,5.21295293865354,0.0003,0.008199999999999999,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,110,Alajuelita,-0.4826988475996695,0.063,0.1986923076923077,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,111,Vázquez de Coronado,-0.07093488860107672,0.1402,0.27372380952380954,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,112,Acosta,-0.14101296474718067,0.3276,0.44772,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,113,Tibás,0.3849360003929867,0.0188,0.09635,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,114,Moravia,0.39699142527115727,0.0909,0.23293124999999998,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,115,Montes de Oca,2.432101137840717,0.0139,0.08767692307692307,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,116,Turrubares,-0.0370596985767608,0.4391,0.4996,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,117,Dota,0.020757897521128447,0.4726,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,118,Curridabat,1.607054248491387,0.0152,0.08902857142857143,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,119,Pérez Zeledón,0.032332961831414264,0.0691,0.20132413793103449,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,120,León Cortés Castro,0.25560117981683594,0.172,0.32799999999999996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,201,Alajuela,0.8994153625446047,0.0041,0.048028571428571434,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,202,San Ramón,-0.0298890654776984,0.2439,0.4166625,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,203,Grecia,-0.012305492718074853,0.4996,0.4996,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,204,San Mateo,-0.030646370728512055,0.3956,0.4841671641791045,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,205,Atenas,-0.009962445568929926,0.4338,0.4996,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,206,Naranjo,0.041305922085552116,0.4647,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,207,Palmares,0.012910979727590447,0.485,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,208,Poás,-0.13228726780447245,0.2633,0.42639999999999995,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,209,Orotina,-0.006618697862683984,0.366,0.4689375,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,210,San Carlos,0.061715284632250914,0.0075,0.0656,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,211,Zarcero,0.057514627664149,0.3106,0.44772,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,212,Sarchí,0.04881108229306292,0.4369,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,213,Upala,0.8625669711576595,0.0167,0.09129333333333332,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,214,Los Chiles,1.4040926362711745,0.0274,0.12482222222222222,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,215,Guatuso,0.7234298834411669,0.0242,0.11672941176470587,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,216,Río Cuarto,0.10560854958053148,0.4153,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,301,Cartago,0.1941049823663419,0.2404,0.4166625,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,302,Paraíso,0.027665742062141434,0.3334,0.44817704918032786,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,303,La Unión,0.34378883266820665,0.0392,0.15658095238095238,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,304,Jiménez,0.23069245705660985,0.3525,0.4662096774193548,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,305,Turrialba,0.2005595063300271,0.0135,0.08767692307692307,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,306,Alvarado,0.0958909865145514,0.1849,0.3445863636363637,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,307,Oreamuno,0.020163731983852157,0.4641,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,308,El Guarco,0.021413505275094676,0.325,0.44772,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,401,Heredia,1.126348386195236,0.0031,0.042366666666666664,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,402,Barva,-0.029585135419797765,0.1077,0.26071176470588237,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,403,Santo Domingo,1.2810463888745762,0.0139,0.08767692307692307,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,404,Santa Bárbara,-0.20249148466311453,0.0466,0.16613913043478262,Bajo-Alto,No significativo (FDR),Bajo-Alto
+Eje económico,405,San Rafael,0.06268556752822686,0.1334,0.27347,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,406,San Isidro,0.12821306738167546,0.0614,0.1986923076923077,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,407,Belén,8.436003419240109,0.0001,0.0041,Alto-Alto,Alto-Alto,Alto-Alto
+Eje económico,408,Flores,1.521821493982648,0.0069,0.0656,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje económico,409,San Pablo,0.43698386470416317,0.0764,0.20882666666666663,Alto-Alto,No significativo (FDR),No significativo
+Eje económico,410,Sarapiquí,-0.37709762120904805,0.228,0.4154666666666667,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,501,Liberia,-0.323846025356321,0.0401,0.15658095238095238,Alto-Bajo,No significativo (FDR),Alto-Bajo
+Eje económico,502,Nicoya,-0.06324706438322311,0.38,0.4793846153846154,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,503,Santa Cruz,-0.022470230539004425,0.4506,0.4996,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,504,Bagaces,0.02128223854698624,0.4853,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,505,Carrillo,-0.020229670471834,0.3031,0.44772,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,506,Cañas,0.09305144978990373,0.1324,0.27347,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,507,Abangares,-0.00448399339181908,0.4992,0.4996,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,508,Tilarán,0.03322406523709201,0.3201,0.44772,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,509,Nandayure,-0.07150764127344097,0.3588,0.4670095238095238,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,510,La Cruz,0.4504301965987592,0.2645,0.42639999999999995,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,511,Hojancha,0.019370374932773105,0.4628,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,601,Puntarenas,-0.018533687240605015,0.3077,0.44772,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,602,Esparza,0.0031408477358400226,0.4991,0.4996,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,603,Buenos Aires,0.7972133928544979,0.0847,0.22404516129032256,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,604,Montes de Oro,-0.031986936289185315,0.3879,0.48193636363636366,Bajo-Alto,No significativo (FDR),No significativo
+Eje económico,605,Osa,-0.16565574204682587,0.1295,0.27347,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,606,Quepos,-0.04011134564093683,0.4785,0.4996,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,607,Golfito,0.42648773708358445,0.0712,0.20132413793103449,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,608,Coto Brus,0.7036347145443123,0.0031,0.042366666666666664,Bajo-Bajo,Bajo-Bajo,Bajo-Bajo
+Eje económico,609,Parrita,0.06349608002821669,0.1081,0.26071176470588237,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,610,Corredores,0.2991915324631279,0.1137,0.26627222222222224,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,611,Garabito,-0.21900338258047414,0.2652,0.42639999999999995,Alto-Bajo,No significativo (FDR),No significativo
+Eje económico,701,Limón,0.14096471496101812,0.0383,0.15658095238095238,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,702,Pococí,0.1001959102539274,0.3213,0.44772,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,703,Siquirres,0.26323187270737314,0.0507,0.173225,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,704,Talamanca,0.7780726842858056,0.0463,0.16613913043478262,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje económico,705,Matina,0.3360520846667617,0.3043,0.44772,Bajo-Bajo,No significativo (FDR),No significativo
+Eje económico,706,Guácimo,0.3222259883413831,0.2331,0.41552608695652177,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,101,San José,-0.9376621304597338,0.0856,0.2420413793103448,Bajo-Alto,No significativo (FDR),No significativo
+Eje de seguridad,102,Escazú,-0.1050182454346296,0.3359,0.40505588235294115,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,103,Desamparados,0.06654406432165776,0.3228,0.4037582089552239,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,104,Puriscal,0.1731029026738126,0.3606,0.4173915492957746,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,105,Tarrazú,-0.3492684306816278,0.1284,0.26321999999999995,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,106,Aserrí,0.03501022760410729,0.4532,0.46453,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,107,Mora,0.39656388430622436,0.1113,0.25351666666666667,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,108,Goicoechea,0.19077903188509665,0.176,0.30066666666666664,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,109,Santa Ana,0.06131867732612839,0.3269,0.4037582089552239,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,110,Alajuelita,-0.03771895047064406,0.3299,0.4037582089552239,Bajo-Alto,No significativo (FDR),No significativo
+Eje de seguridad,111,Vázquez de Coronado,0.5995265063330537,0.0618,0.202704,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,112,Acosta,0.14958696365156504,0.3162,0.4037582089552239,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,113,Tibás,0.049249596352568044,0.4656,0.4713481481481482,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,114,Moravia,0.8434390626607478,0.0163,0.13940000000000002,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,115,Montes de Oca,0.012979298323990715,0.4987,0.4987,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,116,Turrubares,-0.24624384134887334,0.2228,0.3383259259259259,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,117,Dota,0.11379719916298753,0.1088,0.25351666666666667,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,118,Curridabat,-0.09529349070602307,0.3923,0.435256,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,119,Pérez Zeledón,-0.0037614172081328456,0.0112,0.13735,Alto-Bajo,No significativo (FDR),Alto-Bajo
+Eje de seguridad,120,León Cortés Castro,0.17089083189926685,0.1565,0.28590666666666664,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,201,Alajuela,-0.3027753289351611,0.0112,0.13735,Bajo-Alto,No significativo (FDR),Bajo-Alto
+Eje de seguridad,202,San Ramón,-0.1224890916671061,0.1212,0.2628315789473684,Bajo-Alto,No significativo (FDR),No significativo
+Eje de seguridad,203,Grecia,0.4445532036858994,0.0336,0.1620705882352941,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,204,San Mateo,-0.02691531922281649,0.3614,0.4173915492957746,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,205,Atenas,0.24196005306461765,0.1043,0.25351666666666667,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,206,Naranjo,0.9866388600940891,0.0328,0.1620705882352941,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,207,Palmares,0.584595261239255,0.1569,0.28590666666666664,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,208,Poás,0.41941314288932585,0.2966,0.3987081967213114,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,209,Orotina,0.08156227926364853,0.3578,0.4173915492957746,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,210,San Carlos,0.001258991919733376,0.2885,0.39428333333333326,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,211,Zarcero,0.6154189941974646,0.1361,0.2722,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,212,Sarchí,0.6361296736942569,0.029,0.15908,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,213,Upala,0.0034055249410767396,0.0465,0.18897272727272726,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,214,Los Chiles,0.08206398445136452,0.4106,0.44301578947368425,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,215,Guatuso,0.04704547394085824,0.3175,0.4037582089552239,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,216,Río Cuarto,0.06374992081523392,0.4364,0.458473417721519,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,301,Cartago,0.1828712920483619,0.0201,0.14983636363636363,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,302,Paraíso,0.15739193116435557,0.2064,0.3254769230769231,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,303,La Unión,0.3777119200927293,0.1031,0.25351666666666667,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,304,Jiménez,0.2025983083990206,0.3678,0.41888333333333333,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,305,Turrialba,0.16985952055951195,0.1063,0.25351666666666667,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,306,Alvarado,0.2430654990915566,0.2528,0.3582551724137931,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,307,Oreamuno,0.1856645024787783,0.2018,0.3244627450980392,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,308,El Guarco,0.26847664722930303,0.3127,0.4037582089552239,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,401,Heredia,-0.10898097899081284,0.0134,0.13735,Bajo-Alto,No significativo (FDR),Bajo-Alto
+Eje de seguridad,402,Barva,0.9170905207350627,0.0704,0.22203076923076923,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,403,Santo Domingo,0.3504549941702251,0.145,0.28309523809523807,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,404,Santa Bárbara,0.35263223465925786,0.2532,0.3582551724137931,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,405,San Rafael,1.1905868035743032,0.0035,0.13735,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,406,San Isidro,1.397829417891059,0.0031,0.13735,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,407,Belén,0.02322710893708041,0.278,0.38637288135593223,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,408,Flores,0.23513658670133292,0.2523,0.3582551724137931,Alto-Alto,No significativo (FDR),No significativo
+Eje de seguridad,409,San Pablo,1.2814758751674522,0.0264,0.15908,Alto-Alto,No significativo (FDR),Alto-Alto
+Eje de seguridad,410,Sarapiquí,0.0012437431919485606,0.4417,0.458473417721519,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,501,Liberia,0.40675624231742463,0.1671,0.29787391304347827,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,502,Nicoya,0.689067358267569,0.1715,0.29921276595744684,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,503,Santa Cruz,1.3866313026012018,0.0749,0.22491428571428568,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,504,Bagaces,0.2877630150751473,0.017,0.13940000000000002,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,505,Carrillo,0.349389140850044,0.0506,0.18897272727272726,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,506,Cañas,0.2088491849384196,0.1218,0.2628315789473684,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,507,Abangares,0.4677761269317192,0.1821,0.3047387755102041,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,508,Tilarán,-0.19327007989154918,0.1891,0.310124,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,509,Nandayure,-0.7980079083638566,0.0269,0.15908,Alto-Bajo,No significativo (FDR),Alto-Bajo
+Eje de seguridad,510,La Cruz,0.5090903669970894,0.2534,0.3582551724137931,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,511,Hojancha,0.08592772626542054,0.216,0.334188679245283,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,601,Puntarenas,0.10567388633728987,0.3981,0.435256,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,602,Esparza,0.1819123447906811,0.0598,0.202704,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,603,Buenos Aires,0.32518585365086444,0.0113,0.13735,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,604,Montes de Oro,-0.38894898902490826,0.1073,0.25351666666666667,Alto-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,605,Osa,1.7145396359997414,0.0491,0.18897272727272726,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,606,Quepos,1.7367125024928154,0.0507,0.18897272727272726,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,607,Golfito,0.8561527702807035,0.0063,0.13735,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,608,Coto Brus,1.1592488163857975,0.0416,0.18897272727272726,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,609,Parrita,0.09198751133740578,0.3965,0.435256,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,610,Corredores,1.4052826768714621,0.0768,0.22491428571428568,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,611,Garabito,0.9047327873517854,0.1532,0.28590666666666664,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,701,Limón,1.5764962615471692,0.0571,0.202704,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,702,Pococí,-0.004536545647170524,0.4264,0.45408831168831165,Bajo-Alto,No significativo (FDR),No significativo
+Eje de seguridad,703,Siquirres,1.0904966509932794,0.0913,0.24955333333333335,Bajo-Bajo,No significativo (FDR),No significativo
+Eje de seguridad,704,Talamanca,0.9053174501783557,0.0291,0.15908,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,705,Matina,1.9740770218119348,0.0128,0.13735,Bajo-Bajo,No significativo (FDR),Bajo-Bajo
+Eje de seguridad,706,Guácimo,0.19515646129117076,0.126,0.26321999999999995,Bajo-Bajo,No significativo (FDR),No significativo

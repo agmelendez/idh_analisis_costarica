@@ -1,0 +1,19 @@
+{
+ "eig_max_abs_diff": 8.881784197001252e-16,
+ "varimax_max_abs_diff_cargas": 0.0007669492036743442,
+ "puntajes_rotados_max_abs_diff": 5.551115123125783e-16,
+ "corr_puntajes_ortogonales": 9.630782361508343e-18,
+ "var_puntajes": [
+  0.9999999999999998,
+  0.9999999999999998
+ ],
+ "comunalidad_max_abs_diff": 2.220446049250313e-16,
+ "kmo_diff": 1.1102230246251565e-16,
+ "moran_max_abs_diff": 1.6653345369377348e-16,
+ "bh_max_abs_diff": 1.1102230246251565e-16,
+ "rank_biserial_diff": 0.0,
+ "fisher_ci_diff": 9.665065414665719e-10,
+ "cuadrantes_iguales_pct": 100.0,
+ "TOL": "1e-6 (2e-3 para cargas varimax: tolerancia de convergencia de factor_analyzer, 1e-5 en el criterio)",
+ "todo_ok": true
+}

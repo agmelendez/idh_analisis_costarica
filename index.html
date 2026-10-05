@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inicio · IDH cantonal de Costa Rica</title>
+<meta name="description" content="Repositorio abierto de datos, código y resultados de dos estudios del CIOdD-UCR sobre desarrollo humano, competitividad y seguridad en los 84 cantones de Costa Rica.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23004782'/%3E%3Crect x='6' y='17' width='5' height='9' fill='%23fff'/%3E%3Crect x='14' y='11' width='5' height='15' fill='%23FF944E'/%3E%3Crect x='22' y='6' width='5' height='20' fill='%23fff'/%3E%3C/svg%3E">
+</head><body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="masthead"><div class="wrap">
+<div class="brand"><span class="inst">Centro de Investigación Observatorio del Desarrollo · Universidad de Costa Rica</span>
+<a class="title" href="index.html">Desarrollo humano, competitividad y seguridad en los cantones de Costa Rica</a></div>
+<div class="coord">Coordinación: MSI. Agustín Gómez Meléndez<br>Repositorio de reproducibilidad · v1.0 · octubre 2026</div></div></header>
+<nav class="tabs" aria-label="Secciones del sitio"><div class="wrap"><ul><li><a href="index.html" aria-current="page">Inicio</a></li><li><a href="articulo.html">Artículo</a></li><li><a href="informe.html">Informe técnico</a></li><li><a href="explorador.html">Explorador</a></li><li><a href="datos.html">Datos</a></li><li><a href="codigo.html">Código</a></li><li><a href="fuentes.html">Fuentes y método</a></li><li><a href="citar.html">Citar y licencias</a></li></ul></div></nav>
+<main id="main"><div class="wrap">
+
+<p class="kicker">Repositorio abierto de datos y código · 84 cantones · Costa Rica</p>
+<h1>Dos estudios, una base común: desarrollo humano, competitividad, seguridad y tejido empresarial</h1>
+<p class="lead">Este sitio reúne los datos armonizados, el código y los resultados de referencia de dos investigaciones complementarias del Centro de Investigación Observatorio del Desarrollo (CIOdD) de la Universidad de Costa Rica. Está pensado para que una persona experta pueda descargar los insumos, ejecutar los scripts y verificar cada cifra publicada.</p>
+
+<div class="grid c2" style="margin-top:22px">
+<section class="card art"><span class="badge">Artículo científico</span>
+<h3>Heterogeneidad territorial del desarrollo humano cantonal</h3>
+<p>Reclasificación del IDH, el IDH-D y el IDG en cinco categorías (rupturas naturales de Jenks), validada externamente —no fusionada— con PIB per cápita, ICC, Unidades Jurídicas e IPM. PCA y K-means exploratorios. 2010–2025.</p>
+<a class="btn" href="articulo.html">Ver el artículo</a><a class="btn alt" href="articulo.html#art-repro">Reproducir</a></section>
+<section class="card inf"><span class="badge">Informe técnico · v3</span>
+<h3>Perfiles cantonales de desarrollo, competitividad y seguridad</h3>
+<p>Análisis exploratorio de 82 cantones con datos de 2022 a 2025: componentes principales rotados, cuadrantes, K-means, dependencia espacial, contraste de Q3 frente al resto del país e índice de rezago relativo.</p>
+<a class="btn" href="informe.html">Ver el informe</a><a class="btn alt" href="informe.html#inf-repro">Reproducir</a></section>
+</div>
+
+<div class="stats" role="list" aria-label="Cifras del repositorio">
+<div class="stat" role="listitem"><b>84</b><span>cantones en el marco oficial 2026 (82 con datos completos)</span></div>
+<div class="stat" role="listitem"><b>4</b><span>fuentes: PNUD, BCCR (PIB y UJ), Escuela de Economía-UCR</span></div>
+<div class="stat" role="listitem"><b>11</b><span>bases armonizadas en CSV, con diccionario y SHA-256</span></div>
+<div class="stat" role="listitem"><b>2</b><span>paquetes de código Python con resultados de referencia</span></div>
+</div>
+
+<h2>Cómo usar este repositorio</h2>
+<div class="grid c3">
+<div class="card"><h3>1 · Explorar</h3><p>Mapa, tabla y dispersión interactivos de los 84 cantones, con el mismo cuadro de variables de ambos estudios.</p><a href="explorador.html">Abrir el explorador →</a></div>
+<div class="card"><h3>2 · Descargar</h3><p>Bases finales armonizadas (CSV), paneles procesados, límites cantonales y diccionario de datos.</p><a href="datos.html">Ir a Datos →</a></div>
+<div class="card"><h3>3 · Reproducir</h3><p>Instalar versiones fijas, ejecutar los scripts y comparar con las tablas de referencia.</p><a href="codigo.html">Ir a Código →</a></div>
+</div>
+
+<h2>Cómo se relacionan los dos estudios</h2>
+<div class="tablewrap"><table><caption>Diferencias de diseño que deben tenerse presentes al comparar resultados</caption>
+<thead><tr><th scope="col"></th><th scope="col">Artículo</th><th scope="col">Informe técnico v3</th></tr></thead><tbody>
+<tr><th scope="row">Pregunta central</th><td>¿Es consistente la heterogeneidad territorial del IDH cantonal entre métodos y fuentes, sin alterar su fórmula oficial?</td><td>¿Cómo se relacionan desarrollo económico y seguridad en los cantones? ¿Qué distingue al cuadrante Q3?</td></tr>
+<tr><th scope="row">Unidades</th><td>84 cantones (IDH, IDH-D, IDG, IPM); 82 en el análisis multivariado</td><td>82 cantones con datos completos (sin Monteverde ni Puerto Jiménez)</td></tr>
+<tr><th scope="row">PIB per cápita y UJ en el PCA</th><td>Logaritmo natural (especificación principal)</td><td>Escala original</td></tr>
+<tr><th scope="row">Componentes retenidos</th><td>2 (79,7 % de la varianza)</td><td>2 (76,8 % de la varianza)</td></tr>
+<tr><th scope="row">K-means</th><td>k = 3 (evaluados k = 2 a 8)</td><td>k = 4 (evaluados k = 2 a 8); concordancia moderada con los cuadrantes</td></tr>
+</tbody></table></div>
+<div class="note warn"><strong>Los cuadrantes Q1–Q4 no son intercambiables entre estudios.</strong> Aunque comparten reglas de construcción (signo de cada eje y umbral en el promedio), el artículo y el informe usan especificaciones distintas del PCA; un mismo cantón puede caer en cuadrantes diferentes. El explorador muestra ambas clasificaciones por separado (<code>Q_articulo</code> y <code>Q_informe</code>).</div>
+
+<h2>Alcance inferencial</h2>
+<div class="prose"><p>Ambos estudios son <strong>transversales y descriptivos</strong>. Los 84 cantones constituyen un censo, no una muestra aleatoria; por ello los valores <em>p</em>, los intervalos de confianza y las tasas de descubrimiento falso se interpretan como medidas de estabilidad de los patrones frente al remuestreo y al ajuste, no como inferencia a una población mayor. Las asociaciones no establecen causalidad y los cuadrantes y conglomerados son posiciones relativas al promedio del conjunto, no evaluaciones de desempeño ni criterios de asignación de recursos.</p></div>
+</div></main>
+<footer><div class="wrap cc"><div>
+<strong>CIOdD · Universidad de Costa Rica.</strong> Contenido (textos, datos armonizados, tablas y figuras) bajo
+<a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</a>; código bajo licencia MIT.
+Los datos de origen conservan los términos de sus instituciones (PNUD, BCCR, Escuela de Economía-UCR); ver <a href="citar.html">Citar y licencias</a>.</div>
+<div>Repositorio: <a href="https://github.com/USUARIO/idh-cantonal-costa-rica">github.com/USUARIO/idh-cantonal-costa-rica</a><br>Contacto: agustin.gomez@ucr.ac.cr</div></div></footer>
+<script src="assets/js/site.js"></script>
+</body></html>

@@ -1,0 +1,38 @@
+{
+ "E0": {
+  "rho82": -0.7624753757577736,
+  "rho_q3": -0.3804347826086957
+ },
+ "E1": {
+  "rho82": -0.6658503934436936,
+  "rho_q3": -0.25889328063241107
+ },
+ "E2": {
+  "rho82": -0.9117771900610572,
+  "rho_q3": -0.849802371541502
+ },
+ "tau_medio_vs_E0": 0.795125164690382,
+ "tau_min": 0.2964426877470356,
+ "n_esc": 13,
+ "top5_E0": [
+  "Talamanca",
+  "Matina",
+  "Hojancha",
+  "Buenos Aires",
+  "Coto Brus"
+ ],
+ "top5_E0_pct": {
+  "Talamanca": 92.0,
+  "Matina": 85.0,
+  "Hojancha": 77.0,
+  "Buenos Aires": 77.0,
+  "Coto Brus": 54.0
+ },
+ "mediana_top5": [
+  "Talamanca",
+  "Matina",
+  "Hojancha",
+  "Buenos Aires",
+  "Coto Brus"
+ ]
+}

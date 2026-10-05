@@ -1,0 +1,8 @@
+{
+ "n_tablas": 9,
+ "n_iguales": 9,
+ "tol": 1e-09,
+ "max_diff": "7.1e-15",
+ "entorno": "Python 3.13.16",
+ "diferencias": []
+}

@@ -1,0 +1,4 @@
+escenario,fuentes_incluidas,anio_inicio,anio_fin,cantones_2019,cantones_2020,cantones_2021,cantones_2022,cantones_2023,cantones_2024,nota
+A_sin_ICC,IDH (PNUD) + PIB cantonal (BCCR) + Unidades Juridicas cantonal (BCCR),2019,2022,82,82,82,84,,,"Interseccion real ano a ano de codigos de canton presentes en las 3 fuentes a la vez. 2022 es el primer ano con los 84 cantones en las 3 fuentes."
+B_con_ICC,IDH (PNUD) + ICC (UCR) + Unidades Juridicas cantonal (BCCR),2023,2024,,,,,81,82,"El PIB cantonal no cubre 2023-2024, por lo que este escenario NO incluye PIB. Monteverde y Puerto Jimenez nunca estan en ICC, por eso el maximo es 82 (2024) y 81 (2023, falta ademas Rio Cuarto)."
+C_serie_tiempo_variable_unica,"Cualquier variable individual (regla seccion 5.2)",,,,,,,,,"No aplica periodo comun: se usa el rango completo declarado en 01_referencia/metadata_variables.csv para esa variable especifica, sin recortar contra otras fuentes."

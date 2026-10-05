@@ -1,0 +1,20 @@
+# Python 3.13 — versiones con las que se produjeron las cifras publicadas
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+factor_analyzer==0.5.1
+libpysal==4.15.0
+esda==2.10.0
+spreg==1.9.1
+geopandas==1.2.0
+shapely==2.1.2
+pyogrio==0.13.0
+matplotlib==3.11.2
+adjustText==1.4.0
+python-docx==1.2.0
+pillow==12.3.0
+openpyxl==3.1.5
+jenkspy==0.4.1
+scikit-posthocs==0.17.0
